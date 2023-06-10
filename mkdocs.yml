@@ -1,0 +1,23 @@
+site_name: 爱看书的小沐的笔记
+site_url: https://小沐.com/
+nav:
+    - 首页: index.md
+    - 关于: about.md
+theme: 
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+        - python
+
+    locale: zh_CN
+    
+    markdown_extentions:
+      - admonition
+
+    plugins:
+      - search
+
+    extra_css:
+      - resources/css/extra.css
